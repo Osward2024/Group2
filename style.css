@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: cream;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: cream;
+  padding: 20px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: orange;
+  font-weight: 400;
+}
+
+.login-btn {
+  background: #0b72e7;
+  color: lightblue;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 6px;
+  background: #f0f4ff;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background:lightblue;
+  color: none;
+  padding: 7px 10px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.hero-image img {
+  max-width: 300px;
+  border-radius: 0px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: lightblue;
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.05);
+}
+
+.feature-box {
+  text-align: center;
+  max-width: 2000px;
+}
+
+.feature-box span {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.feature-box h3 {
+  margin-bottom: 10px;
+}
